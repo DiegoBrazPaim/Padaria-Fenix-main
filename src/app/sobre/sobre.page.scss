@@ -1,0 +1,47 @@
+/* Aplica o background ao ion-content */
+ion-content {
+    --background: url('/assets/imgs/telaprodutos3.jpg') no-repeat center center;
+    --background-size: cover;
+    height: 100%;
+  }
+  
+  /* Estiliza o título */
+  ion-title {
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+  /* Estiliza o card principal */
+  ion-card {
+    margin: 20px;
+    --background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+  }
+  
+  ion-card-title {
+    color: #f39c12;
+    font-size: 1.3rem;
+  }
+  
+  /* Estiliza os itens da lista */
+  ion-item {
+    --background: #444;
+    margin: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  ion-icon {
+    color: #f39c12;
+  }
+  
+  ion-label {
+    color: #ffffff;
+  }
+  
+  /* Estiliza o botão */
+  ion-button {
+    margin: 20px;
+    --background: #f39c12;
+    --color: #fff;
+  }
+  
